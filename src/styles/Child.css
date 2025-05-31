@@ -4,13 +4,12 @@
     margin: 20px;
     border: 1px white dotted;
     border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding-top: 4px;
 }
 
-#master{
-    border-radius: 5px;
-    border: 2px white ridge;
-    width: 100%;
-}
+
 
 .subheading{
     color: white;
