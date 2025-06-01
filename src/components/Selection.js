@@ -7,7 +7,7 @@ export default function Selection({applyColor,bgcolor}){
 
     return(
     <>
-    <div className="fix-box" data-testid={bgcolor} style={style} onClick={()=>applyColor(setStyle)}>
+    <div data-testid={bgcolor} className="fix-box"  style={style} onClick={()=>applyColor(setStyle)}>
         Selection
     </div>
     </>
