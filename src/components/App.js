@@ -44,7 +44,7 @@ const App = () => {
       <div className='row' id="children-wrapper">
         {
           ["selection1", "selection2", "selection3"].map((index) => (
-            <Selection key={index} bgcolor={key} applyColor={applyColor}/>
+            <Selection key={index} applyColor={applyColor}/>
           ))
         }
       </div>

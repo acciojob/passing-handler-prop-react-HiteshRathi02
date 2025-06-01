@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import "../styles/Child.css"
 
-export default function Selection({applyColor,bgcolor}){
+export default function Selection({applyColor}){
     const [style, setStyle] = useState({background: ""})
-    console.log(bgcolor);
-
     return(
     <>
-    <div data-testid={bgcolor} className="fix-box"  style={style} onClick={()=>applyColor(setStyle)}>
+    <div className="fix-box"  style={style} onClick={()=>applyColor(setStyle)}>
         Selection
     </div>
     </>
