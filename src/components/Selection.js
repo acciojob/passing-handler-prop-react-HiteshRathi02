@@ -3,6 +3,7 @@ import "../styles/Child.css"
 
 export default function Selection({applyColor,bgcolor}){
     const [style, setStyle] = useState({background: ""})
+    console.log(bgcolor);
 
     return(
     <>
